@@ -1,0 +1,58 @@
+.ModuleContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	h1 {
+		color: blue;
+	}
+	form {
+		min-width: 900px;
+        @media screen and (max-width: 868px) {
+            min-width: 380px;
+        }
+		min-height: 400px;
+		background: white;
+		margin: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		i {
+			color: black;
+		}
+		textarea {
+			min-width: 90%;
+			@media screen and (max-width: 768px) {
+				min-width: 350px;
+			}
+            font-size: 0.8em;
+			min-height: 350px;
+			border: 1px solid gray;
+			padding: 10px;
+			color: royalblue;
+            margin: 10px;
+		}
+		button {
+			background: green;
+			font-size: 30px;
+			padding: 5px 40px;
+			margin: 20px;
+			border-radius: 5px;
+		}
+	}
+	.NormalTextOutput ,.UpdatedTextOutput{
+		min-width: 700px;
+		@media screen and (max-width: 768px) {
+			min-width: 350px;
+		}
+		max-width: 80vw;
+		background: white;
+		color: black;
+		padding: 20px;
+		margin: 20px;
+		li{
+			cursor:crosshair;
+		}
+	}
+}

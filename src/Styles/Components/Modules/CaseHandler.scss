@@ -1,0 +1,21 @@
+.ModuleContainer{
+
+
+    .caseOptions{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+        button{
+            padding:5px 20px;
+            margin: 5px;
+            background: red;
+        }
+        .activebutton{
+            border: 2px solid blue;
+        }
+    }
+}

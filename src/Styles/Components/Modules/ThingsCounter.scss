@@ -1,0 +1,45 @@
+.ModuleContainer{
+    .CountsDetails{
+        min-width: 700px;
+		@media screen and (max-width: 768px) {
+			min-width: 350px;
+		}
+		max-width: 80vw;
+		background: white;
+        padding: 20px;
+		margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .counts{
+            width: 250px;
+            min-height: 100px;
+            background: blue;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bolder;
+            flex-direction: column;
+        }
+        .frequencies{
+            width: 95%;
+            background: blue;
+            padding: 10px;
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                li{
+                    background-color: green;
+                    margin: 5px;
+                    padding: 5px;
+                    font-size: 0.8em;
+                    max-width: 98%;
+                }
+            }
+        }
+    }
+}
